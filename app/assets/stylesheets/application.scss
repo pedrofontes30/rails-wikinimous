@@ -1,0 +1,33 @@
+@import "bootstrap/scss/bootstrap";
+
+.banner {
+  background-color: rgb(240,240,240);
+}
+
+.banner a {
+  color: rgb(120,120,120);
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+    text-decoration: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgb(90,110,170);
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+#add {
+  font-size: 35px;
+  a {
+    margin: 0;
+    padding: 0;
+  }
+}
+
